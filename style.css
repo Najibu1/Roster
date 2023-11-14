@@ -1,0 +1,99 @@
+* {
+   margin: 2px;
+   padding: 2.5px;
+   box-sizing: border-box;
+   background-color: orange;
+   outline: none;
+   font-family: sans-serif;
+
+}
+
+h1 {
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: 142d4c;
+   text-shadow: 2px 2px black;
+}
+
+h2 {
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-shadow: 1px 1px grey;
+   color: #385170;
+}
+
+h3{
+   text-align: center; 
+   color: rgb(48,56,141)
+   
+}
+
+.paragraph {
+   border: 0.5px solid black;
+   box-shadow: inset 1px 1px 2px 2px #385170;
+   height: 45px;
+   text-align: center;
+   color: #142d4c;
+}
+
+
+
+:root {
+
+   --c1: #ececec;
+   --c2: #ffffff;
+   --c3: rgba(0, 0, 0, 0.16);
+   --c4: black;
+
+}
+
+.madanna {
+   display: grid;
+   justify-items: center;
+   padding: 0px;
+}
+
+
+#textbox {
+   border: none;
+   height: 40px;
+   width: 120px;
+   box-shadow: 5px 5px 12px var(--c3), inset 2px 2px 12px dimgrey;
+   border-radius: 10px;
+}
+
+input::placeholder {
+   text-align: center;
+   color:rgba(48, 56, 141, 0.4); 
+}
+
+
+
+button {
+   text-align: center;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 90%;
+   height: 90px;
+   width: 90px;
+   box-shadow: inset 5px 5px 12px grey,5px 5px 12px #385170,-5px -5px 12px black,inset -5px -5px 12px black;
+   margin: 5px;
+   color: orange;
+   background-color: blue;
+
+}
+
+button:hover {
+   text-align: center;
+   border: none;
+   border-radius: 90%;
+   height: 85px;
+   width: 85px;
+   box-shadow: inset 5px 5px 12px grey,5px 5px 12px #385170,-5px -5px 12px black,inset -5px -5px 12px black;
+   margin: 5px;
+   color: grey;
+}
+
+li{
+   color: rgb(48,56,141)
+}
